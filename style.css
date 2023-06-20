@@ -73,7 +73,7 @@ body {
 .happy,
 .toyou {
     position: relative;
-    font-family: 'Londrina Outline';
+    font-family: 'Langar', cursive;
     text-align: center;
     backface-visibility: hidden;
     font-size: 30px;
@@ -89,7 +89,7 @@ body {
 
 .bday {
     position: relative;
-    font-family: 'Playfair', serif;
+    font-family: 'Langar', cursive;
     font-size: 30px;
     text-align: center;
     top: 163px;
