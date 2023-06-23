@@ -73,7 +73,7 @@ body {
 .happy,
 .toyou {
     position: relative;
-    font-family: 'Langar', cursive;
+    font-family: 'Rye', cursive;
     text-align: center;
     backface-visibility: hidden;
     font-size: 30px;
@@ -89,7 +89,7 @@ body {
 
 .bday {
     position: relative;
-    font-family: 'Langar', cursive;
+    font-family: 'Rye', cursive;
     font-size: 30px;
     text-align: center;
     top: 163px;
@@ -243,7 +243,11 @@ body {
 /*Style the inside part of the card*/
 .cardInside {
     position: absolute;
-    background: rgba(216, 67, 221, 0.692);
+    background: hsla(202, 100%, 82%, 1);
+    background: linear-gradient(129deg, hsla(202, 100%, 82%, 1) 0%, hsla(270, 100%, 72%, 1) 46%, hsla(288, 100%, 50%, 1) 89%);
+    background: -moz-linear-gradient(129deg, hsla(202, 100%, 82%, 1) 0%, hsla(270, 100%, 72%, 1) 46%, hsla(288, 100%, 50%, 1) 89%);
+    background: -webkit-linear-gradient(129deg, hsla(202, 100%, 82%, 1) 0%, hsla(270, 100%, 72%, 1) 46%, hsla(288, 100%, 50%, 1) 89%);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#A4DEFF", endColorstr="#B86FFF", GradientType=1 );
     width: 250px;
     height: 350px;
     z-index: -1;
